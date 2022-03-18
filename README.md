@@ -12,11 +12,29 @@ Assuming that you have owned legal licenses for Gaussian and GaussView.
 
 ## Usage
 
+First, open `gaussian-16-launcher.pl`.
+
+Then you will see such code:
+
+```perl
+# constants
+$host    = "localhost";
+$img_n   = "gaussian-16-full-pack";
+$cntr_n  = "gaussian-16-full-pack";
+$g16_dir = "path/to/g16/dir";
+$gv_dir  = "path/to/gv/dir";
+$ws      = "path/to/shared/dir";
+```
+
+Change the `$g16_dir` and `$gv_dir` to where your Gaussian 16 and GaussView were located.
+
+Now you can run it like
+
 ```sh
 $ ./gaussian-16-launcher.pl [option]
 ```
-Avaliable Options:
 
+Avaliable Options:
 
 | Short  |    Long     |    Introduction    |
 |:------:|:-----------:|:------------------:|
