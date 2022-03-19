@@ -26,7 +26,7 @@ $gv_dir  = "path/to/gv/dir";
 $ws      = "path/to/shared/dir";
 ```
 
-Change the `$g16_dir` and `$gv_dir` to where your Gaussian 16 and GaussView were located, and `$ws` to which directory you want to share.
+Change the `$g16_dir` and `$gv_dir` to where your Gaussian 16 and GaussView are located, and `$ws` to which directory you want to share.
 
 Now you can run it like
 
