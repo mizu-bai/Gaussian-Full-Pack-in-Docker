@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-LABEL maintainer="mizu-bai"
+LABEL maintainer="mizu-bai<shiragawa4519@outlook.com>"
 
 ARG GAUSSIAN_VAR=g16
 
